@@ -6,7 +6,7 @@
  * Description: using the main function
  * this program prints "the size of various types"
  * Return: 0
- **/
+ */
 int main(void)
 {
 	char c;
