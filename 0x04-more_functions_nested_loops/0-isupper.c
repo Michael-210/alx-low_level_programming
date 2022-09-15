@@ -7,7 +7,7 @@
  * Return: 0 if otherwise
  */
 
-int _isuppercase(int c)
+int _isupper(int c)
 {
 	if ((c >= 'A') && (c <= 'Z'))
 	{
