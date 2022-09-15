@@ -34,15 +34,13 @@ int main(void)
 			{
 				printf("Buzz");
 			}
-
-			else
-			{
-				printf("%d", num);
-			}
 		}
-
-		printf('\n');
+		else
+		{
+			printf("%d", num);
+		}
 	}
 
-	return (0);
+		printf('\n');
+		return (0);
 }
