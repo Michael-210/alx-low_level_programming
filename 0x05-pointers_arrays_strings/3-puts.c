@@ -9,7 +9,7 @@
  * On success: returns no error
  */
 
-void _puts(chat *str)
+void _puts(char *str)
 {
 	int i = 0;
 
