@@ -18,12 +18,10 @@ void print_diagmus(int *a, int size)
 		p = (i * size) + i;
 		l += *(a + p);
 	}
-
 	for (j = 0; j < size; j++)
 	{
 		p = (j * size) + (size - 1 - j);
 		r += *(a + p);
 	}
-
 	printf("%i, %i\n", l, r);
 }
