@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 		return (0);
 	}
 
-	printf("error\n");
+	printf("Error\n");
 
 	return (1);
 }
