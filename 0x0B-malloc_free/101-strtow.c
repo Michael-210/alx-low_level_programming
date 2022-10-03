@@ -3,7 +3,6 @@
 /**
  * len - returns length of string
  * @str: string to be counted
- *
  * Return: length of the string
  */
 
@@ -57,7 +56,6 @@ int num_words(char *str)
  * @str: string to be splitted
  * Return: pointer to the array of splitted words
  */
-
 char **strtow(char *str)
 {
 	char **split;
@@ -72,7 +70,6 @@ char **strtow(char *str)
 		{
 			if ((str[i] != ' ') && (str[i] != '\0'))
 				size++;
-
 			else if (((str[i] == ' ') || (str[i] == '\0')) && i && (str[i - 1] != ' '))
 			{
 				split[j] = (char *)malloc(sizeof(char) * size + 1);
